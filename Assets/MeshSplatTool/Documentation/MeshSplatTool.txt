@@ -1,0 +1,28 @@
+*** MESHSPLATTOOL (Unfinished version) ***
+
+
+** BASIC USAGE **
+
+FIRST TEST:
+- Open Scenes/scene_test.scene
+- Check if those obstacles are in layer "Colliders", if not, create "Colliders" layer and assign them there
+- Then select terrain
+- Click "Create texture"
+
+
+SPLAT TEXTURE CREATION:
+- Assign Terrain4layer material to your mesh(terrain) gameobject
+- Assign 4 textures to that material (some sample textures included)
+- Assign MeshSplatTool script to your mesh(terrain) gameobject
+- Click "Create Texture" button (this initializes the mask texture)
+- Texture should now appear, based on mesh face angles
+
+
+BASIC TEXTURE PAINTING:
+- Select your mesh gameobject (in scene view)
+- Enable [x] Painting Enabled
+- Draw in the mesh using mouse (scene window)
+- Layer drop down controls to which mask layer you are painting (R/G/B/A) (User layer not used yet)
+
+***************************************************
+http://unitycoder.com/blog/2013/08/26/mesh-terrain-texturingsplatmap-tool-wip
